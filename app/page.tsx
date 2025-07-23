@@ -46,7 +46,7 @@ export default function Page() {
         setCurrentIndex((prev) => (prev + 1) % shayariData.length)
         setIsVisible(true)
       }, 500)
-    }, 8000)
+    }, 80000)
 
     return () => clearInterval(interval)
   }, [])
