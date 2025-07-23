@@ -122,6 +122,7 @@ export default function Page() {
         {currentIndex === 0 && (
           <div className="absolute top-4 left-4 bg-pink-500/20 backdrop-blur-sm rounded-lg px-4 py-2 animate-pulse">
             <p className="text-pink-200 text-sm">💕 Tiwari Ji,... you are my everything</p>
+             <p className="text-pink-200 text-sm">💕 caring to some one</p>
           </div>
         )}
         <div className="max-w-4xl w-full">
