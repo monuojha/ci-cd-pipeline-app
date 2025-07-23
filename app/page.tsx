@@ -34,7 +34,7 @@ const shayariData = [
   },
 ]
 
-export default function ShayariShowcase() {
+export default function Page() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isVisible, setIsVisible] = useState(true)
   const [isVideoPlaying, setIsVideoPlaying] = useState(true)
