@@ -46,7 +46,7 @@ export default function Page() {
         setCurrentIndex((prev) => (prev + 1) % shayariData.length)
         setIsVisible(true)
       }, 500)
-    }, 80000)
+    }, 40000)
 
     return () => clearInterval(interval)
   }, [])
@@ -145,7 +145,7 @@ export default function Page() {
               <span className="text-white font-medium">For My Love Tiwari Ji</span>
               <span className="text-2xl">💕</span>
             </div>
-            <p className="text-pink-200 text-sm">From your beloved who adores you 🥰</p>
+            <p className="text-pink-200 text-sm">From your beloved who adores you 🥰🥰🥰</p>
           </div>
 
           {/* Main Shayari Card */}
